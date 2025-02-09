@@ -1,3 +1,7 @@
 import express from "express";
-import cors from "cors";
-import reviews from "./api/reviews.route.js";
+
+const app = express();
+
+app.listen(5000, () => {
+    console.log("Server started at 5000");
+});
